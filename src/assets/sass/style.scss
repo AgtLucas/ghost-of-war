@@ -1,1 +1,18 @@
 @import "gow/variables";
+@import "gow/breakpoints";
+
+body {
+  font-family: 'Arial';
+}
+
+.main {
+  width: 60em;
+  margin: auto;
+  @include bp(view-large) {
+    background: tomato;
+  }
+  @include bp(view-tablet) {
+    background: blue;
+    width: 100%;
+  }
+}
