@@ -1,1 +1,1 @@
-body{font-family:'Arial'}.main{width:60em;margin:auto}@media (min-width: 1530px){.main{background:tomato}}@media (max-width: 1024px){.main{background:blue;width:100%}}
+body{font-family:'Arial'}.main{width:60em;margin:auto}@media (min-width: 1530px){.main{background:tomato}}@media (max-width: 1024px){.main{background:blue;width:100%}}.foo{width:200px}@media (min-width: 1530px){.foo{background:red}}

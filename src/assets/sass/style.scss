@@ -16,3 +16,10 @@ body {
     width: 100%;
   }
 }
+
+.foo {
+  width: 200px;
+  @include bp(view-large) {
+    background: red;
+  }
+}
